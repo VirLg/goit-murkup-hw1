@@ -1,0 +1,48 @@
+.body{
+    width: 1600px;
+}
+
+
+.nav {
+display: flex;
+justify-content: space-between;
+
+width: 700px;
+padding-left: 210px;
+padding-top: 30px;
+
+}
+
+.bg {
+   
+   
+    height: 600px;
+background-color: #2F303A;
+}
+
+.ul{
+
+margin:;
+
+   
+    
+   
+}
+
+
+    
+
+
+
+.bg-button {
+
+
+width: 100px;
+height: 30px;
+padding: auto;
+margin: auto;
+}   
+    
+    
+    
+ 
