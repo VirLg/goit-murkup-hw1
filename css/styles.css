@@ -1,48 +1,80 @@
-.body{
-    width: 1600px;
+:root{
+    --primary-text-color:#757575;
+    --title-text-color: #212121;
+    --accent-text-color: #2196F3;
 }
 
 
+.body {
+    color:var(--primary-text-color);
+    background-color: #ffffff;
+}
+.list{
+    list-style: none;
+}
+/*secondary text #212121 */
+/*main  text #757575 */
+/* white #FFFFFF */
+/* blue #2196F3*/
+/* footer rgba(255, 255, 255, 0.6) */
+/* background #F5F5F5 */
+/* bacgraund grey #F5F4FA */
+/* background akcent #2F303A */
+
+/* Header */
+.header {
+    
+}
+/* Navigation */
+
+
+.nav-logo {
+    color: #000000;
+}
 .nav {
-display: flex;
-justify-content: space-between;
-
-width: 700px;
-padding-left: 210px;
-padding-top: 30px;
-
+    color: var(--title-text-color);
+    
 }
 
-.bg {
-   
-   
-    height: 600px;
-background-color: #2F303A;
+.list a:hover,
+.list a:focus{
+    color: var(--accent-text-color);
 }
 
-.ul{
+.logo-span {
+    color: var(--accent-text-color);
+}
 
-margin:;
+/* Autirizator */
 
-   
-    
-   
+.nav-aut a {
+color: var(--primary-text-color);
+}
+
+.nav-aut a:hover,
+.nav-aut a:focus{
+    color: var(--accent-text-color);
+}
+
+/* bg */
+
+
+
+/* Section */
+
+.section-title {
+    color: var(--title-text-color);
+}
+
+.clients{
+    background-color: #F5F4FA;
 }
 
 
-    
+/* Skills */
+
+.ul-skills .title{
+    color: var(--title-text-color);
+}
 
 
-
-.bg-button {
-
-
-width: 100px;
-height: 30px;
-padding: auto;
-margin: auto;
-}   
-    
-    
-    
- 
