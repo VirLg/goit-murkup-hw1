@@ -77,4 +77,7 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
-
+/* Our comand */
+.employee {
+    color: var(--title-text-color);
+}
