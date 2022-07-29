@@ -2,6 +2,7 @@
     --primary-text-color:#757575;
     --title-text-color: #212121;
     --accent-text-color: #2196F3;
+    --primary-white-color: #ffffff;
 }
 
 
@@ -12,6 +13,20 @@
 .list{
     list-style: none;
 }
+
+/* Button */
+.button{
+    color: var(--primary-white-color);
+    background-color: var(--accent-text-color);
+    
+}
+
+.botton.primary {
+color: var(--primary-white-color);
+background-color: var(--accent-text-color);
+}
+
+
 /*secondary text #212121 */
 /*main  text #757575 */
 /* white #FFFFFF */
@@ -81,3 +96,5 @@ color: var(--primary-text-color);
 .employee {
     color: var(--title-text-color);
 }
+
+
