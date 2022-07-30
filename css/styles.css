@@ -10,6 +10,11 @@
     color:var(--primary-text-color);
     background-color: #ffffff;
     font-family: Roboto, sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    
+
+
 }
 .list{
     list-style: none;
@@ -19,7 +24,8 @@
 .button{
     color: var(--primary-white-color);
     background-color: var(--accent-text-color);
-
+    font-size: 16px;
+    font-weight: 700;
 }
 
 .botton.primary {
@@ -59,6 +65,9 @@ background-color: var(--accent-text-color);
 
 .logo-span {
     color: var(--accent-text-color);
+    font-family: Oleo Script;
+    font-size: 26px;
+    font-weight: 700;
 }
 
 /* Autirizator */
@@ -78,6 +87,8 @@ color: var(--primary-text-color);
 
 .section-title {
     color: var(--title-text-color);
+    font-size: 36px;
+    font-weight: 700;
 }
 
 .clients{
@@ -96,4 +107,20 @@ color: var(--primary-text-color);
     color: var(--title-text-color);
 }
 
+/* BG */
+.main-title {
+    text-align: center;
+    font-size: 44px;
+    font-weight: 900;
+}
+
+
+
+/* our skills */
+.title {
+    font-size: 14px;
+    font-weight: 700;
+}
+
+/* our work */
 
